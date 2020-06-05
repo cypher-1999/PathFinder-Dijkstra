@@ -1,0 +1,37 @@
+.grid {
+  margin: 100px 0;
+}
+.node {
+  width: 20px;
+  height: 20px;
+  outline: 1px solid rgb(72, 73, 75);
+  display: inline-block;
+  margin-bottom: -4px;
+  margin-top: -4px;
+}
+
+.node-visited{
+  background-color:  rgba(0, 190, 218, 0.75);
+}
+.node-finish {
+  background-color: red;
+}
+.node-start {
+  background-color: green;
+}
+.node-weight{
+  background-color: hotpink;
+}
+.node-visited-weight{
+  background-color: orange;
+}
+.node-visited-weight-path{
+  background-color: black;
+}
+
+.node-wall{
+    background-color: grey;
+}
+.shortest-path{
+  background-color: yellow;
+}
